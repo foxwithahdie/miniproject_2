@@ -2,3 +2,4 @@ build_folder/
 *.json
 *.bin
 *.asc
+test_build_folder
