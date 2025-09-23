@@ -11,6 +11,7 @@ build:
 	nextpnr-ice40 --up5k --package sg48 --json $(build_folder)/$(filename).json --pcf $(pcf_file) --asc $(build_folder)/$(filename).asc
 	icepack $(build_folder)/$(filename).asc $(build_folder)/$(filename).bin
 test:
+	python -c 'with open("test/setup.v", "w+", encoding="utf-8") as setup: setup.write("module setup (output logic [255*8-1:0] file_name);\n     assign file_name = \"$(test_build_folder)/$(test_filename).vcd\";\nendmodule\n")'
 	iverilog -g2012 -o $(test_build_folder)/$(test_filename) $(test)/$(test_filename).sv
 	vvp $(test_build_folder)/$(test_filename)
 	gtkwave $(test_build_folder)/$(test_filename).vcd

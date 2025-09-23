@@ -3,3 +3,4 @@ build_folder/
 *.bin
 *.asc
 test_build_folder
+setup.v
