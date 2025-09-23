@@ -1,6 +1,6 @@
 `timescale 10ns/10ns
-`include "../src/top.sv"
-`include "setup.v"
+`include "src/top.sv"
+`include "tests/setup.v"
 
 module test_top;
     output logic [255 * 8 - 1 : 0] file_name;

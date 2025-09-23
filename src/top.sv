@@ -5,6 +5,10 @@ module top #(
     output logic RGB_R,
     output logic RGB_G,
     output logic RGB_B
-)
+);
+
+initial begin
+
+end
 
 endmodule
