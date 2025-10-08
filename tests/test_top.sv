@@ -1,3 +1,4 @@
+// Test file for top.
 `timescale 10ns/10ns
 `include "src/top.sv"
 `include "tests/setup.v"
@@ -44,4 +45,5 @@ module test_top;
         #4
         clk = ~clk;
     end
+
 endmodule

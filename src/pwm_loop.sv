@@ -1,4 +1,5 @@
 // Converts the PWM current value into something that can be driven to an LED at a given time.
+
 module pwm_loop #(
     parameter c_PWM_INTERVAL = 1200 // Amount of loops, in clock cycles, spent at HIGH. Accounts to around 100us.
 )(
@@ -20,4 +21,5 @@ module pwm_loop #(
 
     // If you have reached the PWM interval, the signal should no longer be HIGH. If you haven't yet, you should be at HIGH.
     assign l_pwm_signal = (l_pwm_count > l_pwm_value) ? 1'b1 : 1'b0;
+
 endmodule
