@@ -23,3 +23,5 @@ make test
 ```
 
 systemverilog install
+
+To run this project, you also need to have [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) installed. Install OSS-CAD suite in a safe location and either be in the environment or add OSS CAD Suite's `bin` and `lib` folder to PATH.
