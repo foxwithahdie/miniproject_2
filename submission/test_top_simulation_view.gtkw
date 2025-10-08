@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Oct 08 14:50:56 2025
+[*]
+[dumpfile] "C:\Users\rburdette\OneDrive - Olin College of Engineering\COMPARCH\PROJ\miniproject_2\submission\test_build_folder\test_top.vcd"
+[savefile] "C:\Users\rburdette\OneDrive - Olin College of Engineering\COMPARCH\PROJ\miniproject_2\submission\test_top_simulation_view.gtkw"
+[timestart] 0
+[size] 1920 1009
+[pos] -61 -61
+*-27.032423 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_top.
+[treeopen] test_top.test_u0.
+[sst_width] 197
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 297
+@18028
+[color] 3
+test_top.test_u0.clk
+@200
+-
+-
+-
+@18028
+[color] 1
+test_top.test_u0.l_red
+test_top.test_u0.l_green
+[color] 7
+test_top.test_u0.l_blue
+@200
+-
+-
+-
+-
+@18022
+[color] 1
+test_top.test_u0.l_red_pwm_value[10:0]
+test_top.test_u0.l_green_pwm_value[10:0]
+[color] 7
+test_top.test_u0.l_blue_pwm_value[10:0]
+[pattern_trace] 1
+[pattern_trace] 0
